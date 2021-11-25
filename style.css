@@ -2,14 +2,23 @@ body {
     background-color: lightgray;
 }
 
-#sfondo {
+.container {
     background-color: white;
-    width: 800px;
-    height: 800px;
-    margin: auto;
+    width: 80%;
+    margin: 50% auto;
+    position: relative;
 }
 
 .foto {
-    width: 150px;
-    height: 200px;
+}
+
+.foto2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.product:hover .foto2 {
+    display: block;
 }
