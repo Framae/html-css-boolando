@@ -15,16 +15,31 @@ body {
 .product {
     margin-left: 20px;
     margin-right: 20px;
+    position: relative;
 }
 
-.span1 {
+.discount {
     background-color: rgb(128, 0, 43);
     color: white;
     font-size: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
 }
 
-.span2 {
+.sostenibilità {
     background-color: green;
     color: white;
     font-size: 30px;
+    position: absolute;
+    left: 90px;
+    bottom: 40px;
 }
+
+.product2 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    display: none;
+}
+
