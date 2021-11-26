@@ -6,19 +6,25 @@ body {
     background-color: white;
     width: 80%;
     margin: 50% auto;
-    position: relative;
 }
 
-.foto {
+.row {
+    margin: 40px 0px;
 }
 
-.foto2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
+.product {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.product:hover .foto2 {
-    display: block;
+.span1 {
+    background-color: rgb(128, 0, 43);
+    color: white;
+    font-size: 30px;
+}
+
+.span2 {
+    background-color: green;
+    color: white;
+    font-size: 30px;
 }
