@@ -12,13 +12,57 @@ body {
     width: 80%;
     margin: 50px auto;
 }
+.card {
+    display: inline-block;
+    width: 33%;
+    padding: 10px;
+}
+
+.card .card-image img {
+    width: 100%;
+}
+
+.card-image {
+    position: relative;
+}
+
+.cuoricino {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: #fff;
+    padding: 5px 8px;
+    font-size: 30px;
+}
+
+.card-promo {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+.carta-sconto {
+    background-color: red;
+    color: white;
+    padding: 5px 5px;
+}
+
+.tag {
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
+}
+
+.didascalia .marca {
+    font-size: 18px;
+}
 
 .didascalia .price-discount {
     color: red;
     font-size: 20px;
 }
 
-.original-price {
+.didascalia .original-price {
     text-decoration: line-through;
     font-size: 20px;
 }
