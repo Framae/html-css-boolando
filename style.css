@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -24,6 +24,7 @@ body {
 
 .card-image {
     position: relative;
+    margin-bottom: 15px;
 }
 
 .cuoricino {
@@ -55,6 +56,10 @@ body {
 
 .didascalia .marca {
     font-size: 18px;
+}
+
+.didascalia .nome-prodotto {
+    font-size: 16px;
 }
 
 .didascalia .price-discount {
