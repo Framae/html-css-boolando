@@ -1,45 +1,4 @@
-body {
-    background-color: lightgray;
-}
-
 .container {
-    background-color: white;
     width: 80%;
-    margin: 50% auto;
+    margin: 50px auto;
 }
-
-.row {
-    margin: 40px 0px;
-}
-
-.product {
-    margin-left: 20px;
-    margin-right: 20px;
-    position: relative;
-}
-
-.discount {
-    background-color: rgb(128, 0, 43);
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    left: 0;
-    bottom: 40px;
-}
-
-.sostenibilità {
-    background-color: green;
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    left: 90px;
-    bottom: 40px;
-}
-
-.product2 {
-    position: absolute;
-    top: 0;
-    left: 20px;
-    display: none;
-}
-
