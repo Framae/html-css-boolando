@@ -66,3 +66,20 @@ body {
     text-decoration: line-through;
     font-size: 20px;
 }
+
+.card-image .prima-foto {
+    display: block;
+}
+
+.card-image .seconda-foto {
+    display: none;
+}
+
+.card-image:hover .prima-foto {
+    display: none;
+}
+
+.card-image:hover .seconda-foto {
+    display: block;
+}
+
